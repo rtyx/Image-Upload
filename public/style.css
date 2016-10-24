@@ -1,0 +1,105 @@
+* {
+    font-family: 'VT323', monospace;
+}
+
+html, body{
+    height:100%;
+    min-height:100%;
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    height: 60px;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#content {
+    height: 90%;
+    color: white;
+}
+
+#wrapper {
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+}
+
+#background {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.8;
+    background-color: #000000;
+}
+
+#explanation {
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+select, option, input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.9;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.nouns {
+    text-transform: capitalize;
+}
+
+input:focus {
+    opacity: 1;
+}
+
+.button {
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.05);
+    margin: 10px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    background-color: rgba(255,255,255,0.25);
+}
+
+#image {
+    height: 250px;
+    width: auto;
+}
